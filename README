@@ -23,12 +23,15 @@ Here, 0 < fpr < 1, and num. distinct keys > 0.
 
 
 
-To perform queries, do this:
+To perform queries, do this for a basic bloom filter:
 
 ./bf query -i <input file> -q <queries>
 
-(^^^ This works for both basic and blocked bloom filter with the right 
-input file)
+or do this for a blocked bloom filter:
+
+./bbf query -i <input file> -q <queries>
+
+
 
 In the repository, keys.txt and queries.txt are sample inputs. Therefore, 
 to experiment, you could try the following:
