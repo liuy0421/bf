@@ -44,7 +44,7 @@ or:
 
 ./bbf build -k keys.txt -f 0.2 -n 4 -o bbloom.pickle
 
-./bf query -i bbloom.pickle -q queries.txt
+./bbf query -i bbloom.pickle -q queries.txt
 
 
 Source code could be downloaded from: https://github.com/liuy0421/bf
